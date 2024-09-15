@@ -10,8 +10,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 500px;
-    gap: 30px;
+    width: 400px;
+    gap: 15px;
     padding: 10px;
     border-radius: 5px;
     border: 2px solid black;
@@ -19,9 +19,9 @@
 
 .btn {
     display: flex;
-    width: 100px;
-    height: 50px;
-    font-size: 35px;
+    width: 90px;
+    height: 45px;
+    font-size: 25px;
     font-weight: 400;
     color: black;
     align-items: center;

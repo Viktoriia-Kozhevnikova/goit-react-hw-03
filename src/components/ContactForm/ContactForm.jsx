@@ -23,12 +23,12 @@ const ContactForm = ({ handleSubmit, initialValues }) => {
     >
       <Form className={s.form}>
         <label>
-          <span>Name</span>
+          <span className={s.name}>Name</span>
           <Field name="name" className={s.items} />
           <ErrorMessage name="name" component="span" className={s.error} />
         </label>
         <label>
-          <span>Number</span>
+          <span className={s.name}>Number</span>
           <Field name="number" className={s.items} />
           <ErrorMessage name="number" component="span" className={s.error} />
         </label>
