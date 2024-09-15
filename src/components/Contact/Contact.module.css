@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    flex-grow: 2;
+    width: 215px;
+}
+
+.icon {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.text {
+    text-align: start;
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    margin: 0;
+}
