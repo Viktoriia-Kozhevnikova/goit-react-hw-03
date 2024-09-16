@@ -1,10 +1,19 @@
 .container {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: flex-start;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
     flex-grow: 2;
     width: 215px;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-grow: 2;
 }
 
 .icon {
@@ -13,9 +22,36 @@
 }
 
 .text {
+    display: flex;
+    align-items: center;
     text-align: start;
     font-size: 25px;
     font-weight: 400;
     color: black;
     margin: 0;
 }
+
+.btn {
+    display: flex;
+    width: 90px;
+    height: 45px;
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 10px 10px;
+    background-color: rgb(194, 194, 194);
+    border-radius: 5px;
+    border: 2px solid rgb(94, 94, 94);
+}
+
+.btn:hover,
+.btn:focus {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(124, 124, 124);
+}
+
+
+
